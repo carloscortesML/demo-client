@@ -6,14 +6,14 @@ spring:
       name: 'client-demo-application'
   security:
     user:
-      name: "admin"
-      password: "admin"
+      name: "client"
+      password: "client"
   boot:
     admin:
       client:
         url: 'http://localhost:8081'
-        username: "admin"
-        password: "admin"
+        username: "client"
+        password: "client"
         instance:
           metadata:
             user:
