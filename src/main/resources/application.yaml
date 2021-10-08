@@ -2,8 +2,7 @@ server:
   port: 8082
 spring:
   application:
-    admin:
-      name: 'client-demo-application'
+    name: 'client-demo-application'
   security:
     user:
       name: "client"
